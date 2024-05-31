@@ -1,5 +1,3 @@
-
-
 -- Trigger pour intercepter l’insertion dans ALL_WORKERS_ELAPSED
 CREATE OR REPLACE TRIGGER trg_all_workers_elapsed_insert
 INSTEAD OF INSERT ON ALL_WORKERS_ELAPSED
